@@ -1,0 +1,185 @@
+@font-face {
+  font-family: voyage;
+  src:url('/Users/elijah/Desktop/HTML/intermediate_css/font/voyage.otf');
+}
+@font-face {
+  font-family: firstime;
+  src:url('/Users/elijah/Desktop/HTML/intermediate_css/font/firstime.ttf');
+}
+/* @font-face {
+  font-family: rumble;
+  src:url('/Users/elijah/Desktop/HTML/intermediate_css/font/rubmble.otf');
+} */
+
+body{
+  margin: 0;
+  text-align: center;
+}
+h1{
+  color: #66BFBF;
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  padding-top: 50px;
+  margin-bottom: 0;
+
+}
+.idealist{
+  font-weight: normal;
+}
+h2{
+  color: #66BFBF;
+  font-family: voyage;
+  font-size: 2rem;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+p{
+  color: #40514E;
+  font-family: 'Lato', sans-serif;
+  font-size: 110%;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+/* p{
+  font-family: voyage;
+} */
+.top_container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top_cloud{
+  position: absolute;
+  top: 50px;
+  right: 460px;
+}
+.bottom_cloud{
+  position: absolute;
+  top:180px;
+}
+.middle-container{
+
+  padding-top: 50px;
+
+}
+.myimage{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+}
+.logo{
+  width: 16%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  position: relative;
+  top:12px;
+}
+.skill_up_line{
+  color: grey;
+  border: none;
+  border-top: dotted;
+  width: 4%;
+  border-width: 7px;
+  margin-top: 50px;
+}
+
+.skills{
+  padding-top: 50px;
+}
+.skill-row{
+  text-align: left;
+  line-height: 2;
+  position: relative;
+}
+
+.logo2{
+  width: 18%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  position: relative;
+  top:12px;
+}
+
+.clear2{
+  text-align: right;
+}
+.ideal{
+  text-decoration-line: underline;
+}
+.under_hello{
+  /* display: inline-block; */
+  width: 30%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+.contact-me{
+  padding-top: 50px;
+}
+.under_touch{
+  width: 50%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+.btn{
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3e488a;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.footer-link{
+  color:#EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+
+  font-size: 130%;
+}
+.box{
+  display: inline-block;
+
+  border:none;
+  border-left: solid;
+  border-right: solid;
+  border-color: #EAF6F6;
+  margin-left: -5px;
+  margin-bottom: 30px;
+  border-width: 1px;
+}
+.Elijah{
+  color: #EAF6F6;
+}
