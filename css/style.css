@@ -1,10 +1,10 @@
 @font-face {
   font-family: voyage;
-  src:url('/Users/elijah/Desktop/HTML/intermediate_css/font/voyage.otf');
+  src:url('font/voyage.otf');
 }
 @font-face {
   font-family: firstime;
-  src:url('/Users/elijah/Desktop/HTML/intermediate_css/font/firstime.ttf');
+  src:url('font/firstime.ttf');
 }
 /* @font-face {
   font-family: rumble;
